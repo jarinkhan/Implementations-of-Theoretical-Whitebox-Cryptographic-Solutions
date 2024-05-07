@@ -28,7 +28,8 @@ In addition to the mentioned source files, the implementation may depend on vari
 1. table.h: Contains lookup tables (TBox, TyiTable, XorTable) for optimized encryption.
 2. encoding.h: Provides additional encoding functions for enhanced security.
 Other relevant header files that contribute to the functionality and security of the encryption process.
-Compilation and Output
+
+# Compilation and Output
 To compile the C++ code in Google Colab, a bash script is utilized for streamlined execution. The compilation process ensures that the code is translated into machine-readable instructions. After successful compilation, the encrypted message is overwritten in a file named "output.txt."
 
 # Inspection Files
