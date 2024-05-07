@@ -38,7 +38,12 @@ Each C++ file generates an inspection file (e.g., inspection_encrypt.txt) provid
 
 # Execution Script
 A bash script is employed to compile and execute the C++ code. 
+
+```bash
 #!/bin/bash
 
+# Compile the C++ code
 g++ -o encryptExecutable encrypt.cpp
+
+# Execute the compiled program and redirect output to output.txt
 ./encryptExecutable > output.txt
