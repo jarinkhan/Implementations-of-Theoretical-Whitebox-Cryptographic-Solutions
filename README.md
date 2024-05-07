@@ -46,7 +46,7 @@ Each C++ file generates an inspection file (e.g., `inspection_encrypt.txt`) prov
 
 ## Execution Script
 
-A bash script is employed to compile and execute the C++ code. The script ensures that the necessary dependencies are configured, and the compilation process is initiated. Below is a simplified example of the script:
+A bash script is employed to compile and execute the C++ code. 
 
 ```bash
 #!/bin/bash
